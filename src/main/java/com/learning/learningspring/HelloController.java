@@ -1,5 +1,6 @@
 package com.learning.learningspring;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,6 +27,16 @@ public class HelloController {
 		
 		
 		return  hs;
+		
+	}
+	@RequestMapping("/displayMap")
+		public	HashMap<Integer,String>displayHashMap(){
+			HashMap<Integer, String> hp = new HashMap<Integer, String>();
+			hp.put(1, "bhavana");
+			hp.put(1, "");
+			hp.put(2, "rani");
+			hp.put(8, "kkko");
+			return hp;
 		
 	}
 
