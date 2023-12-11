@@ -31,20 +31,5 @@ public class HelloController {
 		
 	}
 	
-	@RequestMapping("/displaymap")
-	public HashSet<String> displayMap(){
-		HashSet<String> hs1 = new HashSet<String>();
-		hs.add("ppppp");
-		hs.add("oooo");
-		hs.add("meena");
-		hs.add("Reena");
-		hs.add("meena");
-
-		
-			
-		return  hs1;
-		
-		
-	}
-
+	
 }
